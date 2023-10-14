@@ -10,7 +10,7 @@ for x in range(amount):
     n = console.number()
     if n % 2 == 0:
         pares.append(n)
-    else: 
+    else:
         impares.append(n)
 
 print('La suma de los pares es: ', sum(pares))
